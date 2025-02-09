@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Google Search Bar Center",
+    "version": "1.0",
+    "description": "Centers the Google search bar.",
+    "icons": {
+        "128": "icon.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://www.google.com/search?*"],
+        "css": ["styles.css"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  

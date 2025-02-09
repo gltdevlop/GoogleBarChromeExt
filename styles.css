@@ -1,0 +1,37 @@
+/* Unified container for search bar and nav bar */
+#unifiedSearchNav {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: fit-content !important;
+    margin: auto !important;
+    background: #202124 !important; /* Dark mode background */
+    border-radius: 24px !important;
+    padding: 10px 20px !important;
+}
+
+/* Adjust search bar inside the new container */
+form[role="search"] {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 600px !important;
+    max-width: 100% !important;
+    height: 44px !important;
+    background: transparent !important;
+    border: none !important;
+    margin: 0 !important;
+}
+
+/* Adjust navigation bar inside the new container */
+/* Ensure nav bar is centered properly */
+div.qogDvd {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: fit-content !important; /* Ensures it doesn't stretch */
+    max-width: 100% !important;
+    margin: 0 auto !important; /* Centers it horizontally */
+}
+
